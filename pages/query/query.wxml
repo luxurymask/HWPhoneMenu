@@ -1,0 +1,15 @@
+<view class="container">
+  <text class="const-text">华为手机参数查询</text>
+  <view class="input-container">
+    <input class="input" name="phoneType" bindinput="getPhoneType" placeholder='请输入手机型号' value="{{userInput}}"></input>
+    <view class="recommend-container hide{{showView?'show':''}}">
+      <block wx:for="{{recommendArray}}" wx:for-item="item"> 
+        <view class="recommend" bindtap="goNavigateFromRecommend" data-recommend="{{item}}"><text class="recommend-text">{{item}}</text></view>
+      </block>
+    </view>
+  </view>
+  <view class="button" bindtap='goNavigate'>
+    <text class="const-text">查询</text>
+  </view>
+
+</view>

@@ -1,0 +1,38 @@
+<view class="container">
+  <view class="wrapper">
+    <view class="constText">
+      <text>屏幕尺寸: </text>
+    </view>
+    <view class="content">{{screen}}</view>
+  </view>
+  <view class="wrapper">
+    <view class="constText">
+      <text>前置摄像头: </text>
+    </view>
+    <view class="content">{{cameraFront}}</view>
+  </view>
+  <view class="wrapper">
+    <view class="constText">
+      <text>后置摄像头: </text>
+    </view>
+    <view class="content">{{cameraBack}}</view>
+  </view>
+  <view class="wrapper">
+    <view class="constText">
+      <text>电池: </text>
+    </view>
+    <view class="content">{{batery}}</view>
+  </view>
+  <view class="wrapper">
+    <view class="constText">
+      <text>处理器: </text>
+    </view>
+    <view class="content">{{cpu}}</view>
+  </view>
+  <view class="wrapper">
+    <view class="constText">
+      <text>内存: </text>
+    </view>
+    <view class="content">{{ram}}</view>
+  </view>
+</view>

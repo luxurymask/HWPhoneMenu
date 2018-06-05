@@ -1,0 +1,26 @@
+.container{
+  display: flex;
+  flex-direction: column;
+}
+
+.constText{
+  font-size: 40rpx;
+  width: 32%;
+  vertical-align: middle;
+}
+
+.wrapper{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  vertical-align: middle;
+  align-items:center;
+  margin-bottom: 10rpx;
+}
+
+.content{
+  width: 68%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 30rpx;
+  vertical-align: middle;
+}

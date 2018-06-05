@@ -1,0 +1,48 @@
+page{
+  background-color: #fff;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+}
+
+.const-text{
+  margin-top: 30rpx;
+  margin-bottom: 100rpx;
+}
+
+.input{
+  align-items: center;
+  border: 3px solid;
+}
+
+.hide{
+  display: none;
+}
+
+.show{
+  display: block;
+}
+
+.recommend{
+  border-color: #ddd
+}
+
+.recommend-container{
+  border: 2px solid;
+  border-top: 0;
+  border-color: #ddd
+}
+
+.recommend-text{
+  color: #999;
+}
+
+.button{
+  margin-top: 200rpx;
+  border: 2px solid;
+  height: 50rpx;
+  width: 120rpx;
+  text-align: center;
+}
